@@ -8,8 +8,9 @@
 </head>
 <body class="bg-[#2B2D33]">
     
-  
-<nav class="bg-[#2B2D33] shadow-xl">
+   <!-- Nav section start -->
+
+<nav class="bg-[#2B2D33] shadow-xl sticky top-0 z-10">
         <div class="container">
               <div class="sm:flex justify-between py-3 items-center">
 
@@ -28,33 +29,97 @@
         </div>
 </nav>
 
+ <!-- Nav section end -->
 
-<header>
+  <!-- Header secton Start here -->
 
-      <div class=" container mx-auto border border border-indigo-700 border-t-0 sm:flex justify-around items-center text-center  text-white flex h-[80vh] px-8 pt-6">
+<header class="mr-4">
+
+      <div class=" container mx-auto border  border-indigo-700 border-t-0 sm:flex justify-around items-center text-center  text-white pt-8 h-[80vh] px-10">
              <div>
                   <h1 class="text-3xl sm:text-5xl mb-3 sm:mb-16">Smart Coders: Learn  <br>Programming</h1>
 
-                  <button class="bg-indigo-900 px-7 py-3 rounded-full text-xl shadow-xl hover:bg-indigo-950">Join Programming Shikhbo Team <svg class="w-7 inline-block text-red-500 ml-2 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <button class="bg-indigo-900 px-7 py-3 rounded-full text-xl shadow-xl hover:bg-indigo-950 transition delay-100">Join Programming Shikhbo Team <svg class="w-7 inline-block text-red-500 ml-2 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
 </svg>
  </button>
+
              </div> 
 
-             <div>
-                  <img class="h-80 w-80 mt-0 animate-pulse" src="/Images/6-2-tom-and-jerry-picture.png" alt="">
+             <div class="mx-14">
+                  <img  class="h-80 w-80 mt-0 animate-pulse" src="/Images/6-2-tom-and-jerry-picture.png" alt="">
              </div>
       </div>
 
 
-    
-
-
-
-
 </header>
 
+ <!-- Header section end -->
 
+<!-- Main section start here     -->
+
+<main class="container px-8">
+
+       <section class="mt-24 mb-32">
+                 <h2 class="text-white text-3xl text-center mb-12 underline underline-offset-4 decoration-dotted">Our Services</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                         <!-- div-1 -->
+                         <div class="bg-gray-800 p-8 rounded-lg text-center border border-4 border-[#1F2937] hover:border-indigo-600 cursor-pointer animate-pulse">
+                               <img class="w-24 mx-auto border rounded-lg" src="/Images/images.jfif" alt="">
+                               <h4 class="text-white text-lg underline underline-offset-4 my-5">front End Development</h4>
+                               <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequatur.</p>
+                         </div>
+                         <!-- div-1 end -->
+
+                          <!-- div-2 -->
+
+                              <div class="bg-gray-800 p-8 rounded-lg text-center border border-4 border-[#1F2937] hover:border-indigo-600 cursor-pointer">
+                               <img class="w-32 mx-auto" src="/Images/images.jfif" alt="">
+                               <h4 class="text-white text-lg underline underline-offset-4 my-5">Back End Development</h4>
+                               <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequatur.</p>
+                         </div>
+                          <!-- div-2 finished -->
+
+                          <!-- div-3  -->
+                            <div class="bg-gray-800 p-8 rounded-lg text-center border border-4 border-[#1F2937] hover:border-indigo-600 cursor-pointer animate-pulse">
+                               <img class="w-32 mx-auto" src="/Images/images.jfif" alt="">
+                               <h4 class="text-white text-lg underline underline-offset-4 my-5">JavaScript Complete Course</h4>
+                               <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequatur.</p>
+                         </div>
+                          <!-- div-3 end -->
+
+                          <!-- div-4 -->
+                              <div class="bg-gray-800 p-8 rounded-lg text-center border border-4 border-[#1F2937] hover:border-indigo-600 cursor-pointer">
+                               <img class="w-32 mx-auto" src="/Images/images.jfif" alt="">
+                               <h4 class="text-white text-lg underline underline-offset-4 my-5">Next JS Complete Course</h4>
+                               <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequatur.</p>
+                         </div>
+                           <!-- div-4 end -->
+
+                           <!-- div-5 start -->
+                              <div class="bg-gray-800 p-8 rounded-lg text-center border border-4 border-[#1F2937] hover:border-indigo-600 cursor-pointer animate-pulse">
+                               <img class="w-32 mx-auto" src="/Images/images.jfif" alt="">
+                               <h4 class="text-white text-lg underline underline-offset-4 my-5">React JS Complete Course</h4>
+                               <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequatur.</p>
+                         </div>
+                            <!-- div-5 end -->
+
+                            <!-- div-6 start -->
+                             <div class="bg-gray-800 p-8 rounded-lg text-center border border-4 border-[#1F2937] hover:border-indigo-600 cursor-pointer">
+                               <img class="w-32 mx-auto" src="/Images/images.jfif" alt="">
+                               <h4 class="text-white text-lg underline underline-offset-4 my-5">DataBase Free Course</h4>
+                               <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequatur.</p>
+                         </div>
+                             <!-- div-6 end -->
+
+                </div>    
+       </section>
+      
+
+
+</main>
 
 
 
